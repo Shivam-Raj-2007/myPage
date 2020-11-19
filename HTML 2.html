@@ -24,6 +24,7 @@
 }
 </style>
 <body background="Image/Background colour2.png">
+<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="Image/TOP IMAGE4.png" HEIGHT="30"></button>
 <CENTER><I><H1>Acid,Baces And Salt(Description List)</H1></I></CENTER>
 <br>
 <br> 
@@ -70,5 +71,26 @@ and red litmus paper turns blue under alkaline conditions. Example:--<br>
 <CENTER>THE END</I><p>
 <CENTER><A NAME HREF=#TOP><IMG SRC="Image/TOP IMAGE2.png" WIDTH="60" HEIGHT="50" alt="BACK ON TOP"></A><br> BACK <p>
 ©2020 SHIVAM RAJ. All RIGHT RESERVED.</CENTER>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 </body> 
 </html>
