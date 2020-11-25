@@ -107,6 +107,7 @@ img {vertical-align: middle;}
 .topnav {
   overflow: hidden;
   background-color: #333;
+  
 }
 
 /* Style the links inside the navigation bar */
@@ -150,10 +151,6 @@ img {vertical-align: middle;}
   }
 }
 
-.active {
-  background-color: #333;
-}
-
 .topnav .icon {
   display: none;
   }
@@ -187,7 +184,7 @@ img {vertical-align: middle;}
 }
 
 .stencil {
-  font-family: 'Stardos Stencil', cursive;
+   font-family: 'Stardos Stencil', cursive;
   font-size: 45;
 }
 
@@ -201,6 +198,21 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+}
+
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 </style>
@@ -245,28 +257,33 @@ I ALSO WANT TO BECOME A IPS OFFICER.</P>
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 5</div>
-<a href="HTML 2.html" target="_blank"><img src="Image/website2.png" style="width:100%"></a>
-</div>
+<a href="HTML 2.html" target="_blank"><div class="container"><img src="Image/website2.png" style="width:100%"></a>
+<div class="text-block"><H4>Acid, Base and Salt</h4>
+</div></div></div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 5</div>
-  <a href="HTML 3.html" target="_blank"><img src="Image/website3.png" style="width:100%"></a>
-</div>
+  <a href="HTML 3.html" target="_blank"><div class="container"><img src="Image/website3.png" style="width:100%"></a>
+  <div class="text-block"><H4>The Seven Wonders of the world</h4>
+</div></div></div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 5</div>
-   <a href="Durga Puja (Day 1).html" target="_blank"><img src="Image/website4.png" style="width:100%"></a>
-</div>
+  <a href="Durga Puja (Day 1).html" target="_blank"><div class="container"><img src="Image/website4.png" style="width:100%"></a>
+  <div class="text-block"><H4>Durga Puja</h4>
+</div></div></div>
 
 <div class="mySlides fade">
   <div class="numbertext">4 / 5</div>
-  <a href="Wildlife.html" target="_blank"><img src="Image/website5.png" style="width:100%">
-</div>
+  <a href="Wildlife.html" target="_blank"><div class="container"><img src="Image/website5.png" style="width:100%"></a>
+  <div class="text-block"><H4>Wildlife</h4>
+</div></div></div>
 
 <div class="mySlides fade">
   <div class="numbertext">5 / 5</div>
-  <a href="Corona Virus.html" target="_blank"><img src="Image/website6.png" style="width:100%"></a>
-</div><pre>
+  <a href="Corona Virus.html" target="_blank"><div class="container"><img src="Image/website6.png" style="width:100%"></a>
+  <div class="text-block"><H4>Corona Virus</h4>
+</div></div></div><pre>
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>                                                                                                                                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </pre>
 </div>
@@ -324,16 +341,6 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
-}
-</script>
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
 }
 </script>
 <script>
