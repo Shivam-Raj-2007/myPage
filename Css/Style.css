@@ -1,6 +1,6 @@
 
 * {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
+body {font-family: Verdana, sans-serif; margin:0;}
 .mySlides {display: none}
 img {vertical-align: middle;}
 
@@ -72,12 +72,12 @@ img {vertical-align: middle;}
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
@@ -89,7 +89,7 @@ img {vertical-align: middle;}
 .topnav {
   overflow: hidden;
   background-color: #333;
-  
+
 }
 
 /* Style the links inside the navigation bar */
@@ -159,15 +159,83 @@ img {vertical-align: middle;}
 
 .header {
   padding: 30px;
-  width: 1263
+  width: 1263;
   text-align: center;
-  background: #717171;
+  background: #333;
   color: white;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  margin-top: -1px;
+  margin-bottom: 200px;
+  padding-top: 80px;
+}
+
+.header:after {
+   background: inherit;
+   bottom: -140px;
+   content: '';
+   display: block;
+   height: 50%;
+   left: 0;
+   position: absolute;
+   right: 0;
+   transform: skewY(4deg);
+   transform-origin: 100%;
+   z-index: -1;
+ }
+
+ hr {
+   border: 0;
+   text-align: center;
+   background: #111;
+   color: white;
+   background-repeat: no-repeat;
+   position: relative;
+   z-index: 1;
+   margin-top: -1px;
+   margin-bottom: 10px;
+   padding-top: 80px;
+ }
+
+ hr:after {
+    background: inherit;
+    bottom: -140px;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(2deg);
+    transform-origin: 100%;
+    z-index: -1;
+  }
+
+h1 {
+ padding-top: 100px;
+ padding-bottom: 100px;
+ text-align: center;
+}
+
+
+
+/* Fix/hack for 1080p+ displays */
+@media screen and (min-width: 1921px) {
+   .header {
+     padding-bottom: 5px;
+     margin-bottom: 240px !important;
+   }
+
+   .header:after {
+     bottom: -220px !important;
+ }
 }
 
 .stencil {
-   font-family: 'Stardos Stencil', cursive;
+  font-family: 'Stardos Stencil', cursive;
   font-size: 45;
+  padding: 0px;
 }
 
 .skill-row{
@@ -180,4 +248,9 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+}
+
+.A-Web-Designer{
+    font-size: 35;
+    padding: 0px;
 }
