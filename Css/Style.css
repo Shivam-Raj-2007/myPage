@@ -236,3 +236,14 @@ ul {
   font-size: 35;
   color: black;
 }
+
+hr{
+  border-color: white;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 12px;
+  width: 100px;
+  margin: 50px auto;
+  padding: 0px;
+  height: 1px;
+}
