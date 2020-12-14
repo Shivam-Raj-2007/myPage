@@ -242,3 +242,9 @@ hr{
   color: white;
   padding: 5px 0 5px;
   width: 100%;
+}
+
+  ::selection {
+    background:#e2e8ff;
+    color:#001d9b;
+  }
