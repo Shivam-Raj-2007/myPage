@@ -247,11 +247,21 @@ hr{
 }
 
 ::selection {
-  background:#e2e8ff;
+  background: #e2e8ff;
   color:#001d9b;
 }
 
 .copywrite {
   font-size: 1rem;
   padding: 0px 0px;
+}
+
+.links{
+  text-decoration: none;
+  color: #3197D6;
+}
+
+.links:hover{
+  text-decoration: none;
+  color: #001d9b;
 }
