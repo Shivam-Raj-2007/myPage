@@ -5,6 +5,8 @@ body {
   margin: 0;
   text-align:center;
   background-color: #FEFAF6;
+  line-height: 2;
+  color: #40514E;
  }
 
 .mySlides {
@@ -100,6 +102,7 @@ img {
 .topnav {
   overflow: hidden;
   background-color: #333;
+  line-height: normal;
 }
 
 /* Style the links inside the navigation bar */
