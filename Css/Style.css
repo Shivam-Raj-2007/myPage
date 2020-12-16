@@ -241,11 +241,17 @@ hr{
 .bottom-container{
   background-color: #333;
   color: white;
-  padding: 5px 0 5px;
+  padding: 5px;
+  bottom: 5;
   width: 100%;
 }
 
-  ::selection {
-    background:#e2e8ff;
-    color:#001d9b;
-  }
+::selection {
+  background:#e2e8ff;
+  color:#001d9b;
+}
+
+.copywrite {
+  font-size: 1rem;
+  padding: 0px 0px;
+}
