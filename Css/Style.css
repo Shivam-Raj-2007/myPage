@@ -7,7 +7,7 @@ body {
   background-color: #FEFAF6;
   color: #40514E;
   line-height: 2;
-  min-width: 1261px;
+  min-width: 1270px !important;
  }
 
 .mySlides {
@@ -152,7 +152,6 @@ img {
 
   .header {
     padding: 30px;
-    width: 1263;
     text-align: center;
     background: #717171;
     color: white;
