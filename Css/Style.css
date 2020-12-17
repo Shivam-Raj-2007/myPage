@@ -7,6 +7,7 @@ body {
   background-color: #FEFAF6;
   line-height: 2;
   color: #40514E;
+  min-width: 1440px;
  }
 
 .mySlides {
