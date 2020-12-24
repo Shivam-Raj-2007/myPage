@@ -181,8 +181,8 @@ img {
     font-size: 45;
   }
 
-  .Sacramento{
-  font-family: 'Sacramento', cursive;
+  .Vesper{
+  font-family: 'Vesper Libre', serif;
   font-size: 1rem;
 }
 
@@ -198,7 +198,7 @@ img {
   hr{
     border-color: black;
     border-style: none;
-    border-top-style: dotted;
+    border-top- style: dotted;
     border-width: 12px;
     width: 100px;
     margin: 50px auto;
