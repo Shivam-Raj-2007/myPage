@@ -167,8 +167,8 @@ img {
   /* Fix/hack for 1080p+ displays */
   @media screen and (max-width: 1440px) {
      .header {
-       padding-bottom: 5px;
-       margin-bottom: 240px !important;
+       padding-bottom: 30px;
+       margin-bottom: 150px !important;
      }
 
      .header:after {
@@ -198,7 +198,7 @@ img {
   hr{
     border-color: black;
     border-style: none;
-    border-top- style: dotted;
+    border-top-style: dotted;
     border-width: 12px;
     width: 100px;
     margin: 50px auto;
