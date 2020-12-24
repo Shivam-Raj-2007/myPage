@@ -177,9 +177,14 @@ img {
   }
 
   .stencil {
-     font-family: 'Stardos Stencil', cursive;
+    font-family: 'Stardos Stencil', cursive;
     font-size: 45;
   }
+
+  .Sacramento{
+  font-family: 'Sacramento', cursive;
+  font-size: 1rem;
+}
 
   .skill-row{
   text-align: left;
