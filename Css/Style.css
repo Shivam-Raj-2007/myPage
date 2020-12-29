@@ -135,7 +135,6 @@ img {
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {
-    position: relative;
     position: fixed;
     top: 0;
     width: 100%;
@@ -277,19 +276,19 @@ img {
     background: #dadce0;
     border-radius: 4px;
     min-height: 40px;
-    }
-
- :hover::-webkit-scrollbar-thumb{
-    background: #bdc1c6;
-    }
-
-  ::-webkit-scrollbar-thumb:hover{
-    background: #bdc1c6;
-    }
-
-  ::-webkit-scrollbar-thumb:active{
-    background: #9aa0a6;
   }
+
+:hover::-webkit-scrollbar-thumb{
+  background: #bdc1c6;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #bdc1c6;
+}
+
+::-webkit-scrollbar-thumb:active{
+  background: #9aa0a6;
+}
 
 .mybtn {
    background: #333;
