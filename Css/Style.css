@@ -136,6 +136,10 @@ img {
 @media screen and (max-width: 600px) {
   .topnav.responsive {
     position: relative;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
   }
   .topnav.responsive .icon {
     position: absolute;
@@ -300,8 +304,4 @@ img {
 
 .shivam{
   height: 48;
-}
-
-.sticky {
-
 }
