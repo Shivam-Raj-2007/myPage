@@ -104,6 +104,10 @@ img {
   overflow: hidden;
   background-color: #333;
   line-height: normal;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 /* Style the links inside the navigation bar */
@@ -153,7 +157,7 @@ img {
     padding: 30px;
     text-align: center;
     background: #717171;
-    color: white;
+    color: black;
     background-repeat: no-repeat;
     position: relative;
    }
@@ -177,6 +181,8 @@ img {
   }
 
   .stencil {
+    position: relative;
+    top: 50%;
     font-family: 'Stardos Stencil', cursive;
     font-size: 45;
   }
@@ -190,7 +196,7 @@ img {
   text-align: left;
   }
 
-  .A-Web-Designer{
+  .A-Web-Developer{
     font-size: 35;
     color: black;
   }
@@ -274,9 +280,28 @@ img {
     }
 
   ::-webkit-scrollbar-thumb:hover{
-      background: #bdc1c6;
-      }
+    background: #bdc1c6;
+    }
 
   ::-webkit-scrollbar-thumb:active{
     background: #9aa0a6;
   }
+
+.mybtn {
+   background: #333;
+   -webkit-border-radius: 8;
+   -moz-border-radius: 8;
+   border-radius: 8px;
+   font-size: 20px;
+   padding: 10px 20px 10px 20px;
+   text-decoration: none;
+   color: white;
+ }
+
+.shivam{
+  height: 48;
+}
+
+.sticky {
+
+}
