@@ -7,7 +7,7 @@ body {
   background-color: #FEFAF6;
   color: #40514E;
   line-height: 2;
-  min-width: 1270px !important;
+  min-width: 1277px !important;
  }
 
 .mySlides {
@@ -125,22 +125,24 @@ img {
   color: black;
 }
 
+.icon{
+  display: none;
+}
+
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
+    right: 10px;
     display: block;
   }
 }
 
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
-  .topnav.responsive {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-  }
-  .topnav.responsive .icon {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
@@ -148,13 +150,14 @@ img {
   .topnav.responsive a {
     float: none;
     display: block;
-    text-align: center;
+    text-align: left;
   }
 }
 
-.topnav .icon {
-  display: none;
-  }
+.topnav.responsive a:hover{
+  background-color: #111;
+  color: white;
+}
 
   .header {
     padding: 30px;
@@ -211,8 +214,7 @@ img {
     border-width: 12px;
     width: 100px;
     margin: 50px auto;
-    padding: 0px;
-    height: 1px;
+    padding-bottom: 0px;
   }
 
   .btn {
@@ -290,7 +292,7 @@ img {
   background: #9aa0a6;
 }
 
-.mybtn {
+.btn {
    background: #333;
    -webkit-border-radius: 8;
    -moz-border-radius: 8;
@@ -303,4 +305,42 @@ img {
 
 .shivam{
   height: 48;
+}
+
+.sidenav {
+  display: none;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1001;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  background-color: #111;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
