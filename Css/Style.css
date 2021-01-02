@@ -7,7 +7,7 @@ body {
   background-color: #FEFAF6;
   color: #40514E;
   line-height: 2;
-  min-width: 1280px !important;
+  min-width: 1290px !important;
  }
 
 .mySlides {
@@ -330,7 +330,7 @@ img {
 }
 
 .sidenav a:hover {
-  color: #111;
+  background-color: #111;
 }
 
 .sidenav .closebtn {
