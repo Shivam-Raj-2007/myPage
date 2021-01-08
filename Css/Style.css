@@ -123,7 +123,6 @@ img {
 
 .topnav a:hover {
   background-color: #111;
-  color: black;
 }
 
 .icon{
@@ -208,7 +207,7 @@ img {
     color: black;
   }
 
-  hr{
+hr{
     border-color: black;
     border-style: none;
     border-top-style: dotted;
