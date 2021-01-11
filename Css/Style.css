@@ -217,6 +217,11 @@ img {
     padding-bottom: 0px;
   }
 
+  hr{
+    margin-left: 12.5%;
+    margin-right: 5%;
+  }
+
   .btn {
     background: #333;
     -webkit-border-radius: 8;
@@ -346,8 +351,3 @@ img {
   .sidenav a {font-size: 18px;}
 }
 
-hr{
-  margin-left: 12.5%;
-  margin-right: 5%;
-
-}
