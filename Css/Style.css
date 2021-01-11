@@ -207,7 +207,7 @@ img {
     color: black;
   }
 
-hr{
+.dots{
     border-color: black;
     border-style: none;
     border-top-style: dotted;
@@ -344,4 +344,10 @@ hr{
 @media screen and (min-height: 50px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+hr{
+  margin-left: 12.5%;
+  margin-right: 5%;
+
 }
