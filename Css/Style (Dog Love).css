@@ -33,7 +33,7 @@ body {
     color: white;
     background-repeat: no-repeat;
     position: relative;
-    z-index: 1;
+
     margin-top: -1px;
     margin-bottom: 200px;
     padding-top: 80px;
@@ -184,7 +184,6 @@ background-color: #555;
   left: 800px;
   height: 500px;
   transform: rotate(25deg);
-  z-index: 10;
 }
 
 .top-header {
@@ -195,7 +194,6 @@ background-color: #555;
   color: white;
   background-repeat: no-repeat;
   position: relative;
-  z-index: 1;
   margin-top: -1px;
   margin-bottom: 200px;
   padding-top: 80px;
