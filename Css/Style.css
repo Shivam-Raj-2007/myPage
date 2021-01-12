@@ -108,7 +108,7 @@ img {
   top: 0;
   width: 100%;
   z-index: 1000;
-  min-width: 1260px;
+  min-width: 60px;
 }
 
 /* Style the links inside the navigation bar */
@@ -207,7 +207,7 @@ img {
     color: black;
   }
 
-.dots{
+  hr{
     border-color: black;
     border-style: none;
     border-top-style: dotted;
@@ -215,11 +215,6 @@ img {
     width: 100px;
     margin: 50px auto;
     padding-bottom: 0px;
-  }
-
-  hr{
-    margin-left: 12.5%;
-    margin-right: 5%;
   }
 
   .btn {
@@ -350,4 +345,3 @@ img {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-
