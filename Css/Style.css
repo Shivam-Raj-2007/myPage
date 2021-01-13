@@ -10,6 +10,15 @@ body {
   min-width: 1290px !important;
  }
 
+ #loading{
+   position: fixed;
+   width: 100%;
+   height: 100vh;
+   background: #EEEDED
+    url('https://i0.wp.com/codemyui.com/wp-content/uploads/2015/06/material-design-google-loader-in-css.gif?fit=880%2C440&ssl=1') no-repeat center;
+   z-index: 99999;
+ }
+
 .mySlides {
   display: none
 }
@@ -154,19 +163,19 @@ img {
   }
 }
 
-.topnav.responsive a:hover{
-  background-color: #111;
-  color: white;
-}
+ .topnav.responsive a:hover{
+   background-color: #111;
+   color: white;
+ }
 
-  .header {
-    padding: 30px;
-    text-align: center;
-    background: #717171;
-    color: black;
-    background-repeat: no-repeat;
-    position: relative;
-   }
+ .header {
+   padding: 30px;
+   text-align: center;
+   background: #717171;
+   color: black;
+   background-repeat: no-repeat;
+   position: relative;
+ }
 
   h1{
    padding-top: 100px;
@@ -207,7 +216,7 @@ img {
     color: black;
   }
 
-  hr{
+  hr {
     border-color: black;
     border-style: none;
     border-top-style: dotted;
