@@ -9,7 +9,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="myFunction()">
+<div id="loading"><h2>PLease Wait...</h2></div>
 <div id="mySidenav" class="sidenav">
 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br><br><br>
 <a class="Shivam" href="https://shivam-raj-2007.github.io/myPage/"><img src="Image/font shivam.png" width="150" alt="Shivam Logo"></a>
@@ -163,6 +164,13 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
+</script>
+<script>
+  var preloader = document.getElementById('loading');
+
+  function myFunction() {
+    preloader.style.display = 'none'
+  }
 </script>
 <P id="TO CONTACT ME"><br>
 <H2><I><FONT COLOR="#ea4335">(6) TO CONTACT ME :--</H2></I></FONT>
