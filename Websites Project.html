@@ -83,13 +83,22 @@ font-size: 1rem;
   background: #9aa0a6;
 }
 
+#loading{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #fff
+   url('https://cdn.dribbble.com/users/2181115/screenshots/6699000/google-loader.gif') no-repeat center;
+  z-index: 99999;
+}
 </style>
 </head>
-  <body>
+  <body onload="myFunction()">
+    <div id="loading"><h2>PLease Wait...</h2></div>
     <div class="topnav" id="myTopnav">
       <a class="Shivam" href="https://shivam-raj-2007.github.io/myPage/"><img src="Image/font shivam.png" width="150" alt="Shivam Logo"></a>
       <a href="https://shivam-raj-2007.github.io/myPage/"><img src="Image/Back Button.png" alt="Back" height="16"> Back</a>
-    </div><br><br>
+      </div><br><br>
       <b>*Click The Image To Open My Project</b><br><br>
       <a href="HTML 2.html" target="_blank"><img src="Image/website2.png" style="width:50%" alt="Acid, Baces And Salt"></a><br>
       Acid, Baces And Salt <br><br>
@@ -125,6 +134,13 @@ font-size: 1rem;
         } else {
           x.className = "topnav";
         }
+      }
+      </script>
+      <script>
+      var preloader = document.getElementById('loading');
+
+      function myFunction() {
+        preloader.style.display = 'none'
       }
       </script>
   </body>
