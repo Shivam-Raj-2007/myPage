@@ -359,7 +359,7 @@ img {
  #myBtn {
  display: none;
  position: fixed;
- top: 465px;
+ bottom: 85px;
  right: 30px;
  z-index: 99;
  border: none;
