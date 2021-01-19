@@ -3,8 +3,8 @@ body {
   font-family: Verdana, sans-serif;
   margin: 0;
   text-align: center;
-min-width: 1290px !important;
- }
+  min-width: 1250px !important;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
