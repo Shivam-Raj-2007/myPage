@@ -3,7 +3,7 @@ body {
   font-family: Verdana, sans-serif;
   margin: 0;
   text-align: center;
-  min-width: 1263px !important;
+min-width: 1290px !important;
  }
 
 /* Add a black background color to the top navigation */
@@ -175,9 +175,9 @@ background-color: #555;
 .dog-img{
   position: absolute;
   top: 35px;
-  left: 750px;
+  left: 800px;
   height: 500px;
-  transform: rotate(10deg);
+  transform: rotate(5deg);
 }
 
 .top-header {
@@ -195,5 +195,5 @@ background-color: #555;
 
 .testimonial-image{
   height: 100px;
-  border-radius: 20%;
+  border-radius: 20;
 }
