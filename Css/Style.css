@@ -163,12 +163,32 @@ img {
  .header {
    padding: 30px;
    text-align: center;
-   background: #717171;
    color: black;
    background-repeat: no-repeat;
    position: relative;
+   animation: bgcolor infinite 20s;
  }
 
+@keyframes bgcolor {
+  0% {
+    background: #4285f4;
+  }
+  20% {
+    background: #ea4335;
+  }
+  40% {
+    background: #fbbc05;
+  }
+  60% {
+    background: #4285f4;
+  }
+  80% {
+    background: #34a853;
+  }
+  100% {
+    background: #ea4335;
+  }
+}
   h1{
    padding-top: 100px;
    padding-bottom: 100px;
