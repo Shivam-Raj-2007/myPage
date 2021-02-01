@@ -252,7 +252,7 @@ hr {
 }
 
 ::selection {
-  color: black;
+  color: grey;
 }
 
 .copywrite {
