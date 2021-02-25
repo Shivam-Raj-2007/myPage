@@ -12,7 +12,6 @@ body {
   color: #40514E;
   line-height: 2;
   min-width: 1290px !important;
-  overflow-x: hidden
 }
 
 .mySlides {
@@ -125,7 +124,7 @@ img {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -134,7 +133,7 @@ img {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
  .topnav.responsive {position: relative;}
  .topnav.responsive a.icon {
   position: absolute;
