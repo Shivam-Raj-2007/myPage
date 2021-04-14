@@ -350,3 +350,18 @@ hr {
 #myBtn:hover {
    background-color: #111;
  }
+
+ h2 {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 2.5rem;
+  margin: 0px;
+ }
+
+ br {
+   line-height: 1;
+ }
+
+ .wait {
+   font-size: 25px;
+   font-family: Verdana, sans-serif;
+ }
