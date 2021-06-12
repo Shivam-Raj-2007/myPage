@@ -147,6 +147,9 @@ img {
   display: block;
   text-align: left;
   }
+  .text {
+    font-size: 30;
+  }
 }
 
 .topnav.responsive a:hover {
@@ -155,6 +158,7 @@ img {
 }
 
 .header {
+  height: 700px;
   padding: 30px;
   text-align: center;
   color: black;
@@ -203,9 +207,10 @@ h1 {
 
 .stencil {
   position: relative;
-  top: 50%;
+  top: 30%;
+  right: 15%;
   font-family: 'Stardos Stencil', cursive;
-  font-size: 45;
+  font-size: 40;
 }
 
 .Vesper {
@@ -214,7 +219,7 @@ h1 {
 }
 
 .A-Web-Developer {
-  font-size: 35;
+  font-size: 30;
   color: black;
 }
 
@@ -365,3 +370,9 @@ hr {
    font-size: 25px;
    font-family: Verdana, sans-serif;
  }
+
+.myImage {
+  position: absolute;
+  top: 55px;
+  right: 100px
+}
