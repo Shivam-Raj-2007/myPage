@@ -208,7 +208,7 @@ h1 {
 .stencil {
   position: relative;
   top: 30%;
-  right: 15%;
+  right: 20%;
   font-family: 'Stardos Stencil', cursive;
   font-size: 40;
 }
@@ -367,6 +367,9 @@ hr {
  }
 
  .wait {
+   position: absolute;
+   top: 325px;
+   left: 555px;
    font-size: 25px;
    font-family: Verdana, sans-serif;
  }
@@ -374,5 +377,5 @@ hr {
 .myImage {
   position: absolute;
   top: 55px;
-  right: 100px
+  right: 200px
 }
