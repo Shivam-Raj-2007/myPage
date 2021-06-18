@@ -366,6 +366,11 @@ hr {
    line-height: 1;
  }
 
+ .wait {
+   font-size: 25px;
+   font-family: Verdana, sans-serif;
+ }
+
 .myImage {
   position: absolute;
   top: 55px;
