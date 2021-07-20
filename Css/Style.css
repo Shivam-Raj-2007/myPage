@@ -227,7 +227,6 @@ h1 {
 }
 
 hr {
-  border-color: #393e46;
   border-style: none;
   border-top-style: dotted;
   border-width: 12px;
@@ -253,11 +252,12 @@ hr {
 }
 
 .bottom-container {
-  background-color: #333;
+  background: #333;
   color: white;
   padding: 5px;
   bottom: 5;
   width: 100%;
+
 }
 
 ::selection {
@@ -378,4 +378,13 @@ hr {
   position: absolute;
   top: 55px;
   right: 200px
+}
+
+.Last-Modified {
+  font-size: 12px;
+  position: absolute;
+  left: 0px;
+  top: 2490px;
+  color: #40514E;
+  width: 300px;
 }
