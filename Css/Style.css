@@ -396,7 +396,7 @@ hr {
 @media screen and (max-width: 480px) {
   .Last-Modified {
     position: absolute;
-    font-size: 25px;
+    font-size: 20px;
     top: 2750px;
     width: 500px;
   }
