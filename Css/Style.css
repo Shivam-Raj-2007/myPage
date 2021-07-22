@@ -153,6 +153,10 @@ img {
   .text {
     font-size: 30;
   }
+  .Last-Modified {
+    font-size: 30px;
+    bottom: 100px
+  }
 }
 
 .topnav.responsive a:hover {
@@ -387,4 +391,13 @@ hr {
   top: 2490px;
   color: #40514E;
   width: 300px;
+}
+
+@media screen and (max-width: 480px) {
+  .Last-Modified {
+    position: absolute;
+    font-size: 25px;
+    top: 2750px;
+    width: 500px;
+  }
 }
