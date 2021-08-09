@@ -479,6 +479,7 @@ hr {
 }
 
 #myButton {
+  font-family: Verdana, sans-serif;
   position: absolute;
   top: 700px;
   left: 0px;
