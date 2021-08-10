@@ -409,6 +409,14 @@ hr {
   }
 }
 
+@media screen and (max-width: 1441px) {
+  .Last-Modified {
+    position: absolute;
+    top: 2492px;
+    left: 10px;
+  }
+}
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
