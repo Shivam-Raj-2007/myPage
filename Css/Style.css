@@ -388,7 +388,7 @@ hr {
   }
   .Last-Modified {
     font-size: 24px;
-    top: 2752px;
+    top: 2752px !important;
     left: 0px;
     width: 500px;
     height: 100
