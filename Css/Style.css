@@ -220,7 +220,7 @@ h1 {
   color: black;
 }
 
-hr {
+.dots{
   border-style: none;
   border-top-style: dotted;
   border-width: 12px;
@@ -506,4 +506,12 @@ hr {
 #myButton:hover {
   background: #111;
   text-decoration: none;
+}
+
+.Updates-hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px;
 }
