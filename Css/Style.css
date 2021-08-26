@@ -1,5 +1,7 @@
 
-* {box-sizing: border-box}
+* {
+  box-sizing: border-box
+}
 
 html{
   scroll-behavior: smooth;
@@ -11,7 +13,7 @@ body {
   text-align:center;
   color: #40514E;
   line-height: 2;
-  min-width: 1290px !important;
+  /*min-width: 1290px !important;*/
 }
 
 .mySlides {
@@ -104,7 +106,7 @@ img {
   top: 0;
   width: 100%;
   z-index: 1000;
-  min-width: 60px;
+
   box-shadow: 0 3px 1rem rgba(0,0,0,.1);
 }
 
@@ -367,7 +369,7 @@ h1 {
    font-family: Verdana, sans-serif;
  }
 
-.myImage {
+.my_Image {
   position: absolute;
   top: 55px;
   right: 200px
@@ -384,13 +386,13 @@ h1 {
 
 @media screen and (max-width: 480px) {
   .text {
-    font-size: 30;
+    font-size: 20;
   }
   .Last-Modified {
-    font-size: 24px;
+    font-size: 14px;
     top: 2752px !important;
     left: 0px;
-    width: 500px;
+    width: 350px;
     height: 100
   }
   .modal-body {
@@ -514,4 +516,27 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   border-width: 1px;
+}
+
+@media screen and (max-width: 1000px) {
+  .my_Image {
+    right: 10px
+  }
+  .topnav {
+    width: 100%;
+  }
+  .stencil{
+    right: 10px;
+    background: #0005;
+    color: #fff
+  }
+  .A-Web-Developer {
+    color: white;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .Last-Modified {
+    display: none;
+  }
 }
