@@ -10,9 +10,10 @@ html{
 body {
   font-family: Verdana, sans-serif;
   text-align:center;
+  margin: 0;
   color: #40514E;
   line-height: 2;
-  min-width: 400px !important;
+  min-width: 1290px !important;
 }
 
 .mySlides {
@@ -385,10 +386,10 @@ h1 {
 
 @media screen and (max-width: 480px) {
   .text {
-    font-size: 20;
+    font-size: 30;
   }
   .Last-Modified {
-    font-size: 14px;
+    font-size: 24px;
     top: 2752px !important;
     left: 0px;
     width: 350px;
@@ -516,7 +517,7 @@ h1 {
   margin-right: auto;
   border-width: 1px;
 }
-
+/*
 @media screen and (max-width: 1000px) {
   .my_Image {
     right: 10px
@@ -538,4 +539,4 @@ h1 {
   .Last-Modified {
     display: none;
   }
-}
+}*/
