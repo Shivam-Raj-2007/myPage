@@ -1,8 +1,6 @@
 
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 html{
@@ -518,7 +516,7 @@ h1 {
   margin-right: auto;
   border-width: 1px;
 }
-
+/*
 @media screen and (max-width: 1000px) {
   .my_Image {
     right: 10px
@@ -540,4 +538,4 @@ h1 {
   .Last-Modified {
     display: none;
   }
-}
+}*/
