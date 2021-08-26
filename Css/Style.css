@@ -12,7 +12,7 @@ body {
   text-align:center;
   color: #40514E;
   line-height: 2;
-  min-width: 1290px !important;
+  min-width: 400px !important;
 }
 
 .mySlides {
@@ -516,7 +516,7 @@ h1 {
   margin-right: auto;
   border-width: 1px;
 }
-/*
+
 @media screen and (max-width: 1000px) {
   .my_Image {
     right: 10px
@@ -538,4 +538,4 @@ h1 {
   .Last-Modified {
     display: none;
   }
-}*/
+}
