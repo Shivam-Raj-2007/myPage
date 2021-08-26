@@ -11,11 +11,10 @@ html{
 
 body {
   font-family: Verdana, sans-serif;
-  
   text-align:center;
   color: #40514E;
   line-height: 2;
-  /*min-width: 1290px !important;*/
+  min-width: 1290px !important;
 }
 
 .mySlides {
