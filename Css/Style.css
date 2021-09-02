@@ -92,8 +92,8 @@ img {
   to {opacity: 1}
 }
 
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+@media only screen and (max-width: 480px) {
+  .prev, .next,.text {font-size: 24px}
 }
 
 .topnav {
@@ -411,8 +411,6 @@ h1 {
 
 @media screen and (max-width: 1441px) {
   .Last-Modified {
-    position: absolute;
-    top: 2492px;
     left: 10px;
   }
 }
