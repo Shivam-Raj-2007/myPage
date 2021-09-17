@@ -363,39 +363,6 @@ h1 {
   width: 300px;
 }
 
-@media screen and (max-width: 480px) {
-  .text {
-    font-size: 30;
-  }
-  .Last-Modified {
-    font-size: 24px;
-    top: 2752px !important;
-    left: 0px;
-    width: 500px;
-    height: 100
-  }
-  .modal-body {
-    font-size: 30;
-  }
-  .modal-footer {
-    font-size: 20;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .Last-Modified {
-    position: absolute;
-    top: 2415px;
-    left: 10px;
-  }
-}
-
-@media screen and (max-width: 1441px) {
-  .Last-Modified {
-    left: 10px;
-  }
-}
-
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -521,6 +488,12 @@ body::-webkit-scrollbar-thumb:hover {
   .Last-Modified {
     font-size: 15px;
     top: 2565px;
+  }
+  .modal-body {
+    font-size: 30;
+  }
+  .modal-footer {
+    font-size: 20;
   }
 }
 
