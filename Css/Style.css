@@ -513,7 +513,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 @media screen and (max-width: 1000px){
   body {
-    min-width: 1175px !important;
+    min-width: 1180px !important;
   }
   .text {
     font-size: 15px;
