@@ -518,10 +518,6 @@ body::-webkit-scrollbar-thumb:hover {
   .text {
     font-size: 13px !important;
   }
-  .topnav {
-    line-height: 64px;
-    height: 64px;
-   }
   .Last-Modified {
     font-size: 15px;
     top: 2565px;
