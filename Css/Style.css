@@ -511,6 +511,10 @@ body::-webkit-scrollbar-thumb:hover {
     background-color: #c6c6c6;
 }
 
+.text {
+    font-size: 16px;
+  }
+
 @media screen and (max-width: 1184px){
   body {
     min-width: 1185px;
