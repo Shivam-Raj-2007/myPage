@@ -516,7 +516,7 @@ body::-webkit-scrollbar-thumb:hover {
     min-width: 1185px;
   }
   .text {
-    font-size: 13px !important;
+    font-size: 50px !important;
   }
   .Last-Modified {
     font-size: 15px;
