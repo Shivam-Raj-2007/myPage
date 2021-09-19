@@ -93,7 +93,7 @@ img {
 }
 
 @media only screen and (max-width: 480px) {
-  .prev, .next,.text {font-size: 24px}
+  .prev, .next {font-size: 24px}
 }
 
 .topnav {
@@ -364,9 +364,9 @@ h1 {
 }
 
 @media screen and (max-width: 480px) {
-  .text {
+ /* .text {
     font-size: 30;
-  }
+  } */
   .Last-Modified {
     font-size: 24px;
     top: 2752px !important;
