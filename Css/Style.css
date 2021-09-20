@@ -528,9 +528,6 @@ body::-webkit-scrollbar-thumb:hover {
   body {
     min-width: 1185px;
   }
-  .text {
-    font-size: 1.3rem;
-  }
   .Last-Modified {
     font-size: 15px;
     top: 2565px;
