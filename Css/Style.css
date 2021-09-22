@@ -524,16 +524,6 @@ body::-webkit-scrollbar-thumb:hover {
   body {
     min-width: 1185px;
   }
-  .Last-Modified {
-    font-size: 15px;
-    top: 2486px;
-  }
-  .modal-body {
-    font-size: 30;
-  }
-  .modal-footer {
-    font-size: 20;
-  }
 }
 
 @media screen and (max-width: 1100px){
@@ -545,5 +535,15 @@ body::-webkit-scrollbar-thumb:hover {
 @media screen and (max-width: 676px) {
   .text {
     font-size: 1.3rem;
+  }
+  .modal-body {
+    font-size: 30;
+  }
+  .modal-footer {
+    font-size: 20;
+  }
+  .Last-Modified {
+    font-size: 20px;
+    top: 2486px;
   }
 }
