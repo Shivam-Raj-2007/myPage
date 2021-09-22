@@ -525,8 +525,8 @@ body::-webkit-scrollbar-thumb:hover {
     min-width: 1185px;
   }
   .Last-Modified {
-    font-size: 1rem;
-    top: 24px;
+    font-size: 15px;
+    top: 2565px;
   }
   .modal-body {
     font-size: 30;
@@ -544,7 +544,6 @@ body::-webkit-scrollbar-thumb:hover {
 
 @media screen and (max-width: 676px) {
   .text {
-    font-size: calc(1rem + 1vw);
-    /*font-size: 1.3rem;
+    font-size: 1.3rem;
   }
 }
