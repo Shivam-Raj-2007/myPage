@@ -511,19 +511,25 @@ body::-webkit-scrollbar-thumb:hover {
     background-color: #c6c6c6;
 }
 
+.text {
+    font-size: 16px;
+  }
+
 .button-a {
   border: none;
   background: #fff;
 }
 
-/*.text {
+.text {
   font-size: 1rem;
-}*/
+}
 
 @media screen and (max-width: 1184px){
   body {
     min-width: 1185px;
-    font-size: 1rem;
+  }
+  .text {
+    font-size: 1.3rem;
   }
   .Last-Modified {
     font-size: 15px;
