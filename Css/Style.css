@@ -133,6 +133,13 @@ img {
     right: 10px;
     display: block;
   }
+  .shivam {
+    height: 52px !important;
+  }
+  .logo {
+    width: 165;
+    height: 25;
+  }
 }
 
 @media screen and (max-width: 1200px) {
