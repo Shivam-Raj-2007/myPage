@@ -102,7 +102,6 @@ body {
 </style>
 </head>
   <body onload="myFunction()">
-    <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
     <div id="loading"><h2 class="Wait">Please Wait...</h2></div>
     <div class="topnav" id="myTopnav">
       <a class="Shivam" href="https://shivam-raj-2007.github.io/myPage/"><img src="Image/font shivam.png" width="150" alt="Shivam Logo"></a>
@@ -125,7 +124,7 @@ body {
       <div class="text">Music Player </div><br>
       <div class="bottom-container">
       <p class="copywrite">©2020 <span class="Vesper">SHIVAM RAJ</span> All RIGHTS RESERVED.</p></div>
-      
+
       <script>
       var preloader = document.getElementById('loading');
 
@@ -133,23 +132,6 @@ body {
         preloader.style.display = 'none'
       }
       </script>
-      <script>
-      var mybutton = document.getElementById("myBtn");
 
-      window.onscroll = function() {scrollFunction()};
-
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
-      }
-
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-      </script>
   </body>
 </html>
