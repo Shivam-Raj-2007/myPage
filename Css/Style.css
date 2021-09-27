@@ -371,9 +371,7 @@ h1 {
 }
 
 @media screen and (max-width: 480px) {
- /* .text {
-    font-size: 30;
-  } */
+
   .Last-Modified {
     font-size: 24px;
     top: 2752px !important;
@@ -523,10 +521,6 @@ body::-webkit-scrollbar-thumb:hover {
   background: #fff;
 }
 
-/*.text {
-  font-size: 1rem;
-}*/
-
 @media screen and (max-width: 1184px){
   body {
     min-width: 1185px;
@@ -540,9 +534,6 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 @media screen and (max-width: 676px) {
-  /*.text {
-    font-size: 1.3rem;
-  }*/
   .modal-body {
     font-size: 30;
   }
