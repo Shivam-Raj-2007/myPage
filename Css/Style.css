@@ -369,7 +369,7 @@ h1 {
   color: #40514E;
   width: 300px;
 }
-
+/*
 @media screen and (max-width: 480px) {
   .text {
     font-size: 30;
@@ -387,21 +387,21 @@ h1 {
   .modal-footer {
     font-size: 20;
   }
-}
-
+}*/
+/*
 @media screen and (min-width: 1440px) {
   .Last-Modified {
     position: absolute;
     top: 2415px;
     left: 10px;
   }
-}
-
+}*/
+/*
 @media screen and (max-width: 1441px) {
   .Last-Modified {
     left: 10px;
   }
-}
+}*/
 
 /* The Modal (background) */
 .modal {
@@ -527,18 +527,18 @@ body::-webkit-scrollbar-thumb:hover {
   font-size: 2vw;
 }
 
-@media screen and (max-width: 1184px){
+/*@media screen and (max-width: 1184px){
   body {
     min-width: 1185px;
   }
 }
-
+*/
 @media screen and (max-width: 1100px){
   .myImage {
     right: 100px;
   }
 }
-
+/*
 @media screen and (max-width: 676px) {
   .modal-body {
     font-size: 30;
@@ -550,4 +550,4 @@ body::-webkit-scrollbar-thumb:hover {
     font-size: 20px;
     top: 2486px;
   }
-}
+}*/
