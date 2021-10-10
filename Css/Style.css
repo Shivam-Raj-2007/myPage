@@ -524,7 +524,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .text {
-  font-size: 1rem;
+  font-size: 8vw;
 }
 
 @media screen and (max-width: 1184px){
@@ -540,9 +540,6 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 @media screen and (max-width: 676px) {
-  .text {
-    font-size: 1.3rem;
-  }
   .modal-body {
     font-size: 30;
   }
