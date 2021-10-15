@@ -8,6 +8,7 @@ html{
 body {
   font-family: Verdana, sans-serif;
   margin: 0;
+  padding: 0;
   text-align:center;
   color: #40514E;
   line-height: 2;
@@ -162,10 +163,6 @@ img {
 }
 
 .header {
-  width: 100%;
-  min-width: 100%;
-  margin-left: 0px;
-  padding: 0px;
   height: 700px;
   padding: 30px;
   text-align: center;
