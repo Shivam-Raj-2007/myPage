@@ -162,6 +162,9 @@ img {
 }
 
 .header {
+  width: 100%;
+  margin-left: 0px;
+  padding: 0px;
   height: 700px;
   padding: 30px;
   text-align: center;
@@ -523,12 +526,12 @@ body::-webkit-scrollbar-thumb:hover {
 .text {
   font-size: 2vw !important
 }
-
+/*
 @media screen and (max-width: 1184px){
   body {
     min-width: 1185px;
   }
-}
+}*/
 
 @media screen and (max-width: 1100px){
   .myImage {
