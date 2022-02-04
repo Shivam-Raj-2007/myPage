@@ -529,3 +529,42 @@ body::-webkit-scrollbar-thumb:hover {
     top: 2486px;
   }
 }
+
+.bar {
+  background-color: #ddd;
+  width: 50%;
+  text-align: left;
+  display: block;
+}
+
+.html, .css, .bstrap, .js {
+  background-color: #fff
+}
+
+.per-1 {
+  background: linear-gradient(to right, #0066ff 0%, #ff0066 96%);
+  width: 96%;
+  text-align: center;
+  color: white;
+}
+
+.per-2 {
+  background: linear-gradient(to right, #0066ff 0%, #ff0066 75%);
+  width: 75%;
+  text-align: center;
+  color: white;
+}
+
+.per-3 {
+  background: linear-gradient(to right, #0066ff 0%, #ff0066 60%);
+  width: 60%;
+  text-align: center;
+  color: white;
+}
+
+.per-4 {
+  background: linear-gradient(to right, #0066ff 0%, #ff0066 30%);
+  width: 30%;
+  text-align: center;
+  color: white;
+}
