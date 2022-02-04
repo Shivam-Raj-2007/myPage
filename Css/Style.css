@@ -162,7 +162,7 @@ img {
 }
 
 .header {
-  height: 700px;
+  height: 600px;
   padding: 30px;
   text-align: center;
   color: black;
@@ -357,8 +357,8 @@ h1 {
 
 .myImage {
   position: absolute;
-  top: 55px;
-  right: 200px
+  top: -250px;
+  right: 70px
 }
 
 .Last-Modified {
