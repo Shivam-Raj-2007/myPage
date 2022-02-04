@@ -513,7 +513,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 @media screen and (max-width: 1100px){
   .myImage {
-    right: 100px;
+    right: 10px;
   }
 }
 
