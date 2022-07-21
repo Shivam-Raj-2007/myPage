@@ -357,8 +357,8 @@ h1 {
 
 .myImage {
   position: absolute;
-  top: -250px;
-  right: 70px
+  top: 100px;
+  right: 150px
 }
 
 .Last-Modified {
@@ -542,28 +542,28 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .per-1 {
-  background: linear-gradient(to right, #0066ff 0%, #ff0066 96%);
+  background: #4285f4;
   width: 96%;
   text-align: center;
   color: white;
 }
 
 .per-2 {
-  background: linear-gradient(to right, #0066ff 0%, #ff0066 75%);
+  background: #4285f4;
   width: 75%;
   text-align: center;
   color: white;
 }
 
 .per-3 {
-  background: linear-gradient(to right, #0066ff 0%, #ff0066 60%);
+  background: #4285f4;
   width: 60%;
   text-align: center;
   color: white;
 }
 
 .per-4 {
-  background: linear-gradient(to right, #0066ff 0%, #ff0066 30%);
+  background: #4285f4;
   width: 30%;
   text-align: center;
   color: white;
